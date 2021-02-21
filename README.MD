@@ -11,7 +11,9 @@ As per instruction, we will select ID # 940 for the images created on the Images
 
 ### Deliverable 1a - Create a Horizontal Bar Chart using Plotly.js
 
-Use Plotly.js to build interactive charts for the dashboard, using JavaScript, Plotly and D3.js to create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual's ID is selected from the dropdown menu on the webpage.
+Use Plotly.js to build interactive charts for the dashboard, using JavaScript, Plotly and D3.js to create a horizontal bar chart.  
+
+This chart will display the top 10 bacterial species (OTUs) when an individual's ID is selected from the dropdown menu on the webpage.  Further, the demographic information will be displayed.
 
 The horizontal bar chart will display:
 	* Top 10 bacterial species (otu_ids) in descending order
@@ -21,7 +23,8 @@ The horizontal bar chart will display:
 
 ### Deliverable 2: Create a Bubble Chart
 
-* Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample
+* Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample:
+
     * Use `otu_ids` for the x values
     * Use `sample_values` for the y values
     * Use `sample_values` for the marker size
